@@ -32,9 +32,6 @@ main{
     max-width: 20rem;
 }
 
-.rating{
-    /*display: none;*/
-}
 
 .star{
     border-radius: 50%;
@@ -78,9 +75,10 @@ p{
     cursor: pointer;
 }
 
-.number div:visited{
+/*.number div:visited{
     background-color: var(--lightGrey);
-}
+    color: red;
+}*/
 
 button{
     width: 100%;
@@ -138,4 +136,11 @@ footer{
 
 footer a{
     color: hsl(228, 45%, 44%);
+}
+
+@media (min-width:600px) {
+    button{
+        background-color: var(--orange);
+        color: white;
+    }
 }

@@ -14,7 +14,7 @@
 </head>
 <body>
   <main>
-    <div class="rating">
+    <div class="rating" id="rate">
       <div class="star">
         <img src="./images/icon-star.svg" alt="Star icon">
       </div>
@@ -25,18 +25,18 @@
         to help us improve our offering!
       </p>
       <div class="number">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
+        <div id="1">1</div>
+        <div id="2">2</div>
+        <div id="3">3</div>
+        <div id="4">4</div>
+        <div id="5">5</div>
       </div>
-      <button>Submit</button>
+      <button id="submit">Submit</button>
     </div>
 
-    <div class="thanks">
+    <div class="thanks" id="thanks">
       <img src="./images/illustration-thank-you.svg" alt="Thanks Image">
-      <p class="selected">You selected 3 out of 5</p>
+      <p class="selected">You selected <span id="number">0</span> out of 5</p>
       <h1>Thank you!</h1>
       <p>
         We appreciate you taking the time to give a rating. If you ever need more support, 
@@ -50,5 +50,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://hualdevportafolio.netlify.app" target="_blank">HualDev</a>.
   </footer>
+
+  <script src="./rate.js"></script>
 </body>
 </html>
